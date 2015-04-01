@@ -74,7 +74,7 @@ fieldset {
 }
 legend { border: 0; padding: 0; }
 button, input, select,
-textarea { font-family: inherit; font-size: 100%; margin: 0; }
+textarea { font-family: inherit; font-size: 150%; margin: 0; }
 button, input { line-height: normal; }
 button, select { text-transform: none; }
 button, html input[type="button"],
@@ -566,6 +566,19 @@ margin on the iframe, cause it breaks stuff. */
 .fluid-width-video-wrapper iframe {
     margin: 0;
 }
+
+
+.site-nav {
+  list-style: none;
+  margin: 28px 0 14px; }
+
+.site-nav-item {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 10px; }
+  .site-nav-item a:hover {
+    color: #424242; }
 
 
 /* ==========================================================================
@@ -1792,7 +1805,16 @@ body:not(.post-template) .post-title {
         width: auto;
     }
 
+    .post-footer .flattr {
+        position: static;
+        width: right;
+    }
+
     .post-footer .share a {
+        margin: 1.4rem 0.8rem 0 0.8rem;
+    }
+
+    .post-footer .flattr a {
         margin: 1.4rem 0.8rem 0 0.8rem;
     }
 
