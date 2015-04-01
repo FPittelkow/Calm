@@ -1,4 +1,4 @@
-#Silent
+#Calm
 
 A modification of the Silent theme for oberezehntausend.de.
 
